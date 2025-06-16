@@ -1,0 +1,198 @@
+    1  sudo apt-get install libcurl4-openssl-dev
+    2  sudo apt-get install libxml2-dev
+    3  obconf-qt 
+    4  ping 172.19.0.24
+    5  ping 172.19.0.6
+    6  ssh 172.19.0.6
+    7  apt-get install libudunits2-dev
+    8  sudo apt-get install libudunits2-dev
+    9  vi
+   10  vi .bashrc 
+   11  sudo apt-get install ffmpeg
+   12  set -o vi
+   13  sudo apt-get install audacity
+   14  set -o vi
+   15  which vi
+   16  vi .bashrc 
+   17  df -k
+   18  mount
+   19  ip address 
+   20  ping
+   21  ping www.cisco.com
+   22  cd Downloads/
+   23  ls
+   24  rm *
+   25  ls
+   26  sudo apt-get update
+   27  sudo apt-get install gdebi
+   28  ls
+   29  sudo gdebi google-chrome-stable_current_amd64.deb 
+   30  which chrome
+   31  which google-chrome
+   32  /usr/bin/google-chrome
+   33  xinput list
+   34  xinput disable 14
+   35  sudo apt-get install r-base r-base-dev
+   36  ls 
+   37  sudo gdebi rstudio-2022.12.0-353-amd64.deb 
+   38  man rstudio
+   39  echo $PATH
+   40  ls /usr/local/bin/
+   41  find /usr/ | grep -i rstudio
+   42  find /usr/ | grep -i rstudio$
+   43  find /usr/ | grep -i rstudio | grep png
+   44  find /usr/ | grep -i rstudio | grep png | grep -i icon
+   45  sudo R --gui=x11
+   46  cd /usr/share/X11/xkb/keycodes/
+   47  ls
+   48  cat aliases 
+   49  ls
+   50  vi README 
+   51  sudo apt-get install gnome-tweaks
+   52  gnome-tweaks 
+   53  sudo apt-get install xmodmap
+   54  sudo apt-get install x11-xserver-utils
+   55  man x11-xserver-utils
+   56  #sudo apt-get install x11-xserver-utils
+   57  #sudo apt-get install xorg-xmodmap
+   58  sudo apt-get install xorg-xmodmap
+   59  which xmodmap
+   60  man xmodmap 
+   61  sudo R --gui=x11
+   62  xinput disable 14
+   63  cd sspa
+   64  ls
+   65  mkdir sspa
+   66  mkdir sspa/2018
+   67  cd sspa
+   68  ls
+   69  unzip -l dataverse_files.zip 
+   70  unzip  dataverse_files.zip 
+   71  head 1976-2020-house.csv 
+   72  file codebook-us-house-1976тАУ2020.md 
+   73  head codebook-us-house-1976тАУ2020.md 
+   74  ls -l
+   75  vi codebook-us-house-1976тАУ2020.md 
+   76  /op
+   77  which obconf-qt 
+   78  obconf-qt 
+   79  cd
+   80  find / | grep -i x11 | vi -f - 2>/dev/null
+   81  sudo find / | grep -i x11 | vi -f - 
+   82  cd sspa
+   83  scp -rp 172.19.0.6:sspa/revest/ .
+   84  scp -rp 172.19.0.6:sspa/rvest/ .
+   85  ssh 172.19.0.6
+   86  scp -rp 172.19.0.6:Documents/sspa/rvest/ tmp
+   87  ls
+   88  ls tmp
+   89  ls -l tmp/ | grep ^d
+   90  mv tmp/ rvest
+   91  cd rvest/
+   92  sudo shutdown -h now
+   93  lsblk
+   94  sudo umount /media/dutky/CCCOMA_X64FRE_EN-US_DV9 
+   95  sudo fdisk /dev/sdb
+   96  sudo shutdown -r now
+   97  lsblk
+   98  sudo fdisk /dev/sdb
+   99  sudo shutdown -r now
+  100  sudo apt update
+  101  ping www.cisco.com
+  102  nmcli device status
+  103  nmcli --help
+  104  nmcli --help | vw
+  105  nmcli --help | vi -f -
+  106  nmcli --help 2>&1 | vi -f -
+  107  man nmcli
+  108  nmcli device wifi connect "longBranchTrail" password "1SS4m,1dtAA"
+  109  nmcli device status
+  110  nmcli device wifi connect "longBranchTrail" password "1SS4m,1dtAA"
+  111  nmcli connection modify  "longBranchTrail" wifi.hidden yes
+  112  nmcli device wifi connect "longBranchTrail" password "1SS4m,1dtAA"
+  113  nmcli connection up  "longBranchTrail" 
+  114  sudo apt update
+  115  xinput disable 14
+  116  xinput list
+  117  xinput disable 13
+  118  sudo apt install gnome-terminal
+  119  which gnome-terminal
+  120  which gnome-terminal
+  121  #
+  122  echo test | vi -f -
+  123  vi -f -
+  124  vi
+  125  ls -lt | head
+  126  vi flatpak.cmd 
+  127  sudo apt install flatpak
+  128  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  129  flatpak install flathub com.github.micahflee.torbrowser-launcher
+  130  #flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  131  flatpak run com.github.micahflee.torbrowser-launcher
+  132  flatpak run app/org.torproject.torbrowser-launcher/x86_64/stable
+  133  # rD1l,s1,ae1DD
+  134  xinput disable 13
+  135  echo $PATH
+  136  ls
+  137  mkdir prj2025web
+  138  git init
+  139  #git remote add origin git@github.com:bes.beset/proj2025web.git
+  140* 
+  141  echo $?
+  142  ls
+  143  ls -a
+  144  cd prj2025web
+  145  ls 
+  146  git init
+  147  cp ../concordence.css  .
+  148  git add concordence.css 
+  149  echo $?
+  150  git commit -m "first commit concordence.css"
+  151  git config --global user.email "bes.beset@proton.me"
+  152  git config --global user.name "bes.beset"
+  153  git commit -m "first commit concordence.css"
+  154  cp concordence.css concordence.css1
+  155  git add concordence.css1
+  156  git commit -m "concordence.css1"
+  157  echo $?
+  158  git push origin main
+  159  git push origin prj2025
+  160  git branch
+  161  git push origin master
+  162  ls .git
+  163  ls .git/branches
+  164  git remote add origin git@github.com:bes.beset/proj2025web.git
+  165  git push origin master
+  166  git remote -v
+  167  git branch -m master main
+  168  git push origin main
+  169  git remote -v
+  170  git branch
+  171  git clone git@github.com:bes.beset/proj2025web.git
+  172  ssh -T git@github.com
+  173  GIT_TRACE=1 GIT_SSH_COMMAND="ssh -v"
+  174  echo GIT_TRACE
+  175  echo $GIT_TRACE
+  176  set | grep GIT
+  177  set | grep -P 'GIT_.*?(?:TRACE|SSH)'
+  178  git push origin main
+  179  export GIT_TRACE
+  180  export GIT_SSH_COMMAND
+  181  git push origin main
+  182  git add concordence.css
+  183  git commit -m "concordence.css1"
+  184  touch test
+  185  git add test
+  186  git commit -m "test"
+  187  git branch -M main
+  188  git -u push origin main
+  189  git push -u  origin main
+  190  git clone git@github.com:bes.beset/proj2025web.git
+  191  git clone git@github.com:besBeset/proj2025web.git
+  192  ssh -T git@github.com
+  193  git push git@github.com:besBeset/proj2025web.git
+  194  history
+  195  history | vi -f
+  196  history 2>&1 | vi -f
+  197  history >test.hist
+test test
